@@ -1,0 +1,5 @@
+#!/bin/bash
+if [ -z "$(pgrep 'ranger')" ]
+	then `rxvt -e ranger`
+	else echo "$(pgrep 'ranger')"
+fi

@@ -1,0 +1,4 @@
+#!/bin/bash
+export WINEPREFIX=~/.msoffice
+cd "`dirname "$1"`"
+/home/kirill/.clibs/wine32-3.0.2/bin/wine start "`basename "$1"`"
