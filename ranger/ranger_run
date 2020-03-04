@@ -1,0 +1,5 @@
+#!/bin/bash
+# Если полученная строка пустая (-z)
+if [ -z "$(xdotool search --classname "ranger")" ]
+	then `rxvt -name "ranger" -e ranger`
+fi
